@@ -46,7 +46,7 @@ These hosted demos use synthetic or disposable data and do not require signup. E
 
 ## Technologies
 
-TypeScript, C#, Go, Python, SQL · React, Next.js, Electron, React Native/Expo · Node.js, .NET, GraphQL · PostgreSQL, Redis, BullMQ · Vercel AI SDK, model evaluations, Playwright · AWS, Fly.io, Cloudflare, Terraform, Docker
+TypeScript, C#, Go, Python, SQL · React, Next.js, Electron, React Native/Expo · Node.js, .NET, GraphQL · PostgreSQL, Redis, BullMQ · Vercel AI SDK, model evaluations, Playwright · AWS, Vercel, Cloudflare, Terraform, Docker
 
 ## Let's connect
 
