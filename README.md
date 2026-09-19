@@ -37,11 +37,11 @@ These hosted demos use synthetic or disposable data and do not require signup. E
 - **Tofu.Vocab:** Vietnamese flashcards, spaced review, study history, and study groups. [Source](https://github.com/brennanbutler01/tofu-vocab) · [Demo](https://tofu-vocab-demo.vercel.app)
 - **Tofu.Movies:** movie discovery, watchlists, watched status, reviews, and reactions. [Source](https://github.com/brennanbutler01/tofu-movies) · [Demo](https://tofu-movies-demo.vercel.app)
 - **Tofu Jobs:** a React and TypeScript organizer backed by a C#/.NET and PostgreSQL API for companies, applications, interviews, activity notes, and cover-letter links. [Frontend](https://github.com/brennanbutler01/tofu-jobs) · [API](https://github.com/brennanbutler01/tofu-jobs-api) · [Demo](https://tofu-jobs-demo.vercel.app)
+- **Học Việt API:** Go translation and vocabulary service with a read-only demo on personal Vercel hosting. [Source](https://github.com/brennanbutler01/hoc-viet) · [API docs](https://hoc-viet-demo.vercel.app/docs). Live translation is currently limited by the external provider.
 
 ## Earlier public work
 
 - [Unity kart-racing project](https://github.com/brennanbutler01/SandboxMayhem) — an earlier C# and Unity class project.
-- [Học Việt API](https://github.com/brennanbutler01/hoc-viet) — a small Go translation and vocabulary API. [Hosted docs](https://hoc-viet-demo.vercel.app/docs)
 - [Reelgood Scraper](https://github.com/brennanbutler01/reelgood-scraper) — an earlier public repository.
 
 ## Technologies
