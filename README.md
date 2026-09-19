@@ -41,7 +41,7 @@ These hosted demos use synthetic or disposable data and do not require signup. E
 ## Earlier public work
 
 - [Unity kart-racing project](https://github.com/brennanbutler01/SandboxMayhem) — an earlier C# and Unity class project.
-- [Học Việt](https://github.com/brennanbutler01/hoc-viet) — a small Go translation and vocabulary API.
+- [Học Việt API](https://github.com/brennanbutler01/hoc-viet) — a small Go translation and vocabulary API. [Hosted docs](https://hoc-viet-demo.fly.dev/docs)
 - [Reelgood Scraper](https://github.com/brennanbutler01/reelgood-scraper) — an earlier public repository.
 
 ## Technologies
