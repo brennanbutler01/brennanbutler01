@@ -14,17 +14,16 @@ Founding software engineer in San Francisco building production AI agents and fu
 
 ## Open source
 
-I am getting more involved in open source through reproducible issue reports and upstream pull requests. I am working toward contributing fixes and tests across the tools I use.
+I am getting more involved in open source through reproducible issue reports and upstream pull requests. Some contributions have landed, and others are still in maintainer review.
 
-Recent upstream work includes:
+Upstreamed work includes:
 
-- **[Oxc](https://github.com/oxc-project/oxc):** parser, linter, formatter, minifier, Vitest integration, and React compiler fixes.
-- **[TanStack Query](https://github.com/TanStack/query):** cancellation, retry, selection, placeholder, infinite-query, and mutation-scope behavior.
-- **[Blaxel TypeScript SDK](https://github.com/blaxel-ai/sdk-typescript):** process polling, caller execution options, sandbox fixtures, and integration coverage.
-- **[Vercel AI SDK](https://github.com/vercel/ai):** reproducible reports around streaming, cancellation, model selection, tool repair, approval, media, transport, and data handling.
-- **[tRPC](https://github.com/trpc/trpc), [EventSource](https://github.com/EventSource/eventsource), [pg-boss](https://github.com/timgit/pg-boss), [aws4fetch](https://github.com/mhart/aws4fetch), [date-fns/tz](https://github.com/date-fns/tz), [rate-limit-redis](https://github.com/express-rate-limit/rate-limit-redis), [enriched-markdown](https://github.com/software-mansion/enriched-markdown), and [officeParser](https://github.com/harshankur/officeParser):** targeted fixes, tests, documentation, and runtime behavior reports.
-- **Community contribution:** a merged change to [RecordSponge](https://github.com/codeforpdx/recordexpungPDX/pull/1701), a Code for PDX project.
-- **Issue reports:** [image-dimensions](https://github.com/sindresorhus/image-dimensions/issues/20), [p-limit](https://github.com/sindresorhus/p-limit/issues/110), and [Better Auth](https://github.com/better-auth/better-auth/issues/11327).
+- **[pg-boss #907](https://github.com/timgit/pg-boss/pull/907):** merged a fix so shutdown waits for workers that are already stopping.
+- **[RecordSponge #1701](https://github.com/codeforpdx/recordexpungPDX/pull/1701):** merged a Code for PDX change adding partners to the landing page and removing court fees.
+
+Open proposals I am keeping an eye on include targeted fixes and tests for **[Oxc](https://github.com/oxc-project/oxc)**, **[TanStack Query](https://github.com/TanStack/query)**, **[Blaxel's TypeScript SDK](https://github.com/blaxel-ai/sdk-typescript)**, **[EventSource](https://github.com/EventSource/eventsource)**, **[tRPC](https://github.com/trpc/trpc)**, **[aws4fetch](https://github.com/mhart/aws4fetch)**, **[date-fns/tz](https://github.com/date-fns/tz)**, **[rate-limit-redis](https://github.com/express-rate-limit/rate-limit-redis)**, **[enriched-markdown](https://github.com/software-mansion/enriched-markdown)**, and **[officeParser](https://github.com/harshankur/officeParser)**. The live [open pull request list](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr+is%3Aopen&type=pullrequests) is the current status.
+
+I have also opened reproducible reports in the **[Vercel AI SDK](https://github.com/vercel/ai)** around streaming, cancellation, model selection, tool repair, approval, media, transport, and data handling, plus issue reports for [image-dimensions](https://github.com/sindresorhus/image-dimensions/issues/20), [p-limit](https://github.com/sindresorhus/p-limit/issues/110), and [Better Auth](https://github.com/better-auth/better-auth/issues/11327).
 
 [All authored pull requests](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr&type=pullrequests) · [All authored issues](https://github.com/search?q=author%3Abrennanbutler01+is%3Aissue&type=issues) · [model-switching metadata](https://github.com/vercel/ai/issues/20944) · [cancellation during tool-call repair](https://github.com/vercel/ai/issues/20938)
 
