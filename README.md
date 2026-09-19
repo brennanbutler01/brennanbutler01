@@ -14,9 +14,19 @@ Founding software engineer in San Francisco building production AI agents and fu
 
 ## Open source
 
-I am getting more involved in open source by investigating and reporting reproducible issues in [Vercel's AI SDK](https://github.com/vercel/ai), with recent work around streaming, cancellation, model selection, and tool-call repair and approval behavior. I am working toward contributing fixes as well.
+I am getting more involved in open source through reproducible issue reports and upstream pull requests. I am working toward contributing fixes and tests across the tools I use.
 
-[Authored issues](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01) · [model-switching metadata](https://github.com/vercel/ai/issues/20944) · [cancellation during tool-call repair](https://github.com/vercel/ai/issues/20938)
+Recent upstream work includes:
+
+- **[Oxc](https://github.com/oxc-project/oxc):** parser, linter, formatter, minifier, Vitest integration, and React compiler fixes.
+- **[TanStack Query](https://github.com/TanStack/query):** cancellation, retry, selection, placeholder, infinite-query, and mutation-scope behavior.
+- **[Blaxel TypeScript SDK](https://github.com/blaxel-ai/sdk-typescript):** process polling, caller execution options, sandbox fixtures, and integration coverage.
+- **[Vercel AI SDK](https://github.com/vercel/ai):** reproducible reports around streaming, cancellation, model selection, tool repair, approval, media, transport, and data handling.
+- **[tRPC](https://github.com/trpc/trpc), [EventSource](https://github.com/EventSource/eventsource), [pg-boss](https://github.com/timgit/pg-boss), [aws4fetch](https://github.com/mhart/aws4fetch), [date-fns/tz](https://github.com/date-fns/tz), [rate-limit-redis](https://github.com/express-rate-limit/rate-limit-redis), [enriched-markdown](https://github.com/software-mansion/enriched-markdown), and [officeParser](https://github.com/harshankur/officeParser):** targeted fixes, tests, documentation, and runtime behavior reports.
+- **Community contribution:** a merged change to [RecordSponge](https://github.com/codeforpdx/recordexpungPDX/pull/1701), a Code for PDX project.
+- **Issue reports:** [image-dimensions](https://github.com/sindresorhus/image-dimensions/issues/20), [p-limit](https://github.com/sindresorhus/p-limit/issues/110), and [Better Auth](https://github.com/better-auth/better-auth/issues/11327).
+
+[All authored pull requests](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr&type=pullrequests) · [All authored issues](https://github.com/search?q=author%3Abrennanbutler01+is%3Aissue&type=issues) · [model-switching metadata](https://github.com/vercel/ai/issues/20944) · [cancellation during tool-call repair](https://github.com/vercel/ai/issues/20938)
 
 ## Current portfolio demos
 
