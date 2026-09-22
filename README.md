@@ -14,14 +14,19 @@ Founding software engineer in San Francisco building production AI agents and fu
 
 ## Open source
 
-I am getting more involved in open source through reproducible issue reports and upstream pull requests. Some contributions have landed, and others are still in maintainer review.
+I contribute to open source through reproducible issue reports and upstream pull requests. Seven authored public pull requests have merged; other proposals remain in maintainer review.
 
 Upstreamed work includes:
 
 - **[pg-boss #907](https://github.com/timgit/pg-boss/pull/907):** merged a fix so shutdown waits for workers that are already stopping.
 - **[RecordSponge #1701](https://github.com/codeforpdx/recordexpungPDX/pull/1701):** merged a Code for PDX change adding partners to the landing page and removing court fees.
+- **[FastMCP #5181](https://github.com/PrefectHQ/fastmcp/pull/5181):** merged a fix that preserves binary resource contents in the response cache.
+- **[EventSource #362](https://github.com/EventSource/eventsource/pull/362):** merged a fix that stops dispatching messages after close.
+- **[EventSource #363](https://github.com/EventSource/eventsource/pull/363):** merged a fix that aborts rejected response requests.
+- **[rate-limit-redis #259](https://github.com/express-rate-limit/rate-limit-redis/pull/259):** merged documentation clarifying Redis command adapter signatures.
+- **[enriched-markdown #833](https://github.com/software-mansion/enriched-markdown/pull/833):** merged iOS regression coverage for multi-paragraph list markers.
 
-Open proposals I am keeping an eye on include targeted fixes and tests for **[Oxc](https://github.com/oxc-project/oxc)**, **[TanStack Query](https://github.com/TanStack/query)**, **[Blaxel's TypeScript SDK](https://github.com/blaxel-ai/sdk-typescript)**, **[EventSource](https://github.com/EventSource/eventsource)**, **[tRPC](https://github.com/trpc/trpc)**, **[aws4fetch](https://github.com/mhart/aws4fetch)**, **[date-fns/tz](https://github.com/date-fns/tz)**, **[rate-limit-redis](https://github.com/express-rate-limit/rate-limit-redis)**, **[enriched-markdown](https://github.com/software-mansion/enriched-markdown)**, and **[officeParser](https://github.com/harshankur/officeParser)**. The live [open pull request list](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr+is%3Aopen&type=pullrequests) is the current status.
+Open proposals include targeted fixes and tests for **[Oxc](https://github.com/oxc-project/oxc)**, **[DSPy](https://github.com/stanfordnlp/dspy)**, **[LiteLLM](https://github.com/BerriAI/litellm)**, **[TanStack Query](https://github.com/TanStack/query)**, **[Blaxel's TypeScript SDK](https://github.com/blaxel-ai/sdk-typescript)**, **[tRPC](https://github.com/trpc/trpc)**, **[aws4fetch](https://github.com/mhart/aws4fetch)**, **[date-fns/tz](https://github.com/date-fns/tz)**, and **[officeParser](https://github.com/harshankur/officeParser)**. The live [open pull request list](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr+is%3Aopen&type=pullrequests) is the current status.
 
 I have also opened reproducible reports in the **[Vercel AI SDK](https://github.com/vercel/ai)** around streaming, cancellation, model selection, tool repair, approval, media, transport, and data handling, plus issue reports for [image-dimensions](https://github.com/sindresorhus/image-dimensions/issues/20), [p-limit](https://github.com/sindresorhus/p-limit/issues/110), and [Better Auth](https://github.com/better-auth/better-auth/issues/11327).
 
