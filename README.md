@@ -14,7 +14,7 @@ Founding software engineer in San Francisco building production AI agents and fu
 
 ## Open source
 
-I contribute to open source through reproducible issue reports and upstream pull requests. Seven authored public pull requests have merged; other proposals remain in maintainer review.
+I contribute to open source through reproducible issue reports and upstream pull requests. The merged examples below are direct authored contributions; other proposals remain in maintainer review.
 
 Upstreamed work includes:
 
@@ -28,7 +28,7 @@ Upstreamed work includes:
 
 Open proposals include targeted fixes and tests for **[Oxc](https://github.com/oxc-project/oxc)**, **[DSPy](https://github.com/stanfordnlp/dspy)**, **[LiteLLM](https://github.com/BerriAI/litellm)**, **[TanStack Query](https://github.com/TanStack/query)**, **[Blaxel's TypeScript SDK](https://github.com/blaxel-ai/sdk-typescript)**, **[tRPC](https://github.com/trpc/trpc)**, **[aws4fetch](https://github.com/mhart/aws4fetch)**, **[date-fns/tz](https://github.com/date-fns/tz)**, and **[officeParser](https://github.com/harshankur/officeParser)**. The live [open pull request list](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr+is%3Aopen&type=pullrequests) is the current status.
 
-I have also opened reproducible reports in the **[Vercel AI SDK](https://github.com/vercel/ai)** around streaming, cancellation, model selection, tool repair, approval, media, transport, and data handling, plus issue reports for [image-dimensions](https://github.com/sindresorhus/image-dimensions/issues/20), [p-limit](https://github.com/sindresorhus/p-limit/issues/110), and [Better Auth](https://github.com/better-auth/better-auth/issues/11327).
+I have also opened reproducible reports in the **[Vercel AI SDK](https://github.com/vercel/ai)** around streaming, cancellation, model selection, tool repair, approval, media, transport, and data handling. Other recent reports include [Composio #4509](https://github.com/ComposioHQ/composio/issues/4509) on deprecated connected-account fields, [FastMCP #5178](https://github.com/PrefectHQ/fastmcp/issues/5178) on binary resource responses in response caching, [image-dimensions](https://github.com/sindresorhus/image-dimensions/issues/20), [p-limit](https://github.com/sindresorhus/p-limit/issues/110), and [Better Auth](https://github.com/better-auth/better-auth/issues/11327).
 
 [All authored pull requests](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr&type=pullrequests) · [All authored issues](https://github.com/search?q=author%3Abrennanbutler01+is%3Aissue&type=issues) · [model-switching metadata](https://github.com/vercel/ai/issues/20944) · [cancellation during tool-call repair](https://github.com/vercel/ai/issues/20938)
 
