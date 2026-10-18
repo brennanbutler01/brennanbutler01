@@ -4,19 +4,20 @@ Fullstack Engineer at Hyperbound, based in San Francisco. I build production AI 
 
 ## Open source
 
-I contribute to the [Vercel AI SDK](https://github.com/vercel/ai) through bug investigation, runnable reproductions, source-level diagnosis, and focused fix proposals. As of October 11, 2026, my contributions have led to 49 fixes merged to main, with co-author credit on all 49 fix commits. I have submitted 202 bug reports and improvement proposals; 165 carry the project's successful-reproduction label.
+I contribute to the [Vercel AI SDK](https://github.com/vercel/ai) through bug investigation, runnable reproductions, source-level diagnosis, and focused fix proposals. As of October 18, 2026, I have submitted 272 bug reports and improvement proposals; 206 carry the project's successful-reproduction label, and 57 carry its `merged-main` label. Separately, 56 distinct fix commits on the main branch credit me as a co-author.
 
-This follows the SDK's [issue-first contribution process](https://github.com/vercel/ai/blob/main/CONTRIBUTING.md): maintainers and automated workflows prepare fixes from detailed reports and credit contributors on the resulting commits. My work covers streaming, cancellation, tool execution, structured output, provider adapters, and client state.
+This follows the SDK's [issue-first contribution process](https://github.com/vercel/ai/blob/main/CONTRIBUTING.md): maintainers and automated workflows prepare fixes from detailed reports and credit contributors on the resulting commits. My work covers streaming, cancellation, tool execution, structured output, provider adapters, client state, and HarnessAgent streaming.
 
 Selected merged fixes with co-author credit:
 
 - [Cancellation during tool-call repair](https://github.com/vercel/ai/commit/63175049119a46295e0ebffbcf638ef67c31f551): prevent repaired tools from executing after cancellation.
 - [Model-switching metadata](https://github.com/vercel/ai/commit/669672843ced76ce4d49e0aa98f9c56b56463792): report the model selected by `prepareStep` in streamed results and callbacks.
 - [Overlapping React requests](https://github.com/vercel/ai/commit/a527dcd92d99cf53babb9edf38657a6fd459c294): prevent older `useObject` responses from overwriting newer results.
+- [HarnessAgent final-step reasoning](https://github.com/vercel/ai/commit/a7a66f553908ba54b40e24ff7d4b2edb7c06421c): expose final-step reasoning through stream result accessors.
 
 [All my AI SDK reports](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01) · [Reports with fixes merged to main](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01%20label%3Amerged-main)
 
-I also authored eight merged pull requests across six other libraries and Code for PDX's RecordSponge project, verified October 11, 2026:
+I also authored eight merged pull requests across six other libraries and Code for PDX's RecordSponge project, verified October 18, 2026:
 
 - **[pg-boss #907](https://github.com/timgit/pg-boss/pull/907):** merged a fix so shutdown waits for workers that are already stopping.
 - **[Oxc #26796](https://github.com/oxc-project/oxc/pull/26796):** merged a React Compiler fix for recursive function expressions, verified with ten React 19.2.3 runtime scenarios.
