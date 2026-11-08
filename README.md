@@ -19,7 +19,14 @@ I keep a steady bug-fixing practice across the libraries my work depends on — 
 
 [All authored pull requests](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr&type=pullrequests) · [Open proposals](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr+is%3Aopen&type=pullrequests)
 
-Earlier in 2026 I did deep bug-hunting on the [Vercel AI SDK](https://github.com/vercel/ai): 272 detailed reports through its issue-first process, with co-author credit on 56 commits merged to main — including fixes for cancellation during tool-call repair, overlapping React `useObject` requests, and model-switching metadata via `prepareStep`. [All my AI SDK reports](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01) · [Reports with fixes merged to main](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01%20label%3Amerged-main)
+Earlier in 2026 I did deep bug-hunting on the [Vercel AI SDK](https://github.com/vercel/ai): 272 detailed reports through its issue-first process, with co-author credit on 56 commits merged to main. [All my AI SDK reports](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01) · [Reports with fixes merged to main](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01%20label%3Amerged-main)
+
+Selected AI SDK fixes with co-author credit:
+
+- [Cancellation during tool-call repair](https://github.com/vercel/ai/commit/63175049119a46295e0ebffbcf638ef67c31f551): prevent repaired tools from executing after cancellation.
+- [Model-switching metadata](https://github.com/vercel/ai/commit/669672843ced76ce4d49e0aa98f9c56b56463792): report the model selected by `prepareStep` in streamed results and callbacks.
+- [Overlapping React requests](https://github.com/vercel/ai/commit/a527dcd92d99cf53babb9edf38657a6fd459c294): prevent older `useObject` responses from overwriting newer results.
+- [HarnessAgent final-step reasoning](https://github.com/vercel/ai/commit/a7a66f553908ba54b40e24ff7d4b2edb7c06421c): expose final-step reasoning through stream result accessors.
 
 ## Selected engineering work
 
