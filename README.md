@@ -1,24 +1,13 @@
 # Brennan Butler
 
-Fullstack Engineer at Hyperbound, based in San Francisco. I build production AI agents and full-stack products, and contribute to the Vercel AI SDK with co-author credit on merged fixes across its runtime, providers, and React APIs.
+Fullstack Engineer at Hyperbound, based in San Francisco. I build production AI agents and full-stack products, and contribute fixes across the open-source JavaScript and TypeScript ecosystem.
 
 ## Open source
 
-I contribute to the [Vercel AI SDK](https://github.com/vercel/ai) through bug investigation, runnable reproductions, source-level diagnosis, and focused fix proposals. As of October 18, 2026, I have submitted 272 bug reports and improvement proposals; 206 carry the project's successful-reproduction label, and 57 carry its `merged-main` label. Separately, 56 distinct fix commits on the main branch credit me as a co-author.
+I keep a steady bug-fixing practice across the libraries my work depends on — most recently TanStack Query and tRPC, with earlier merged fixes in Oxc, EventSource, FastMCP, pg-boss, rate-limit-redis, Software Mansion's enriched-markdown, and Code for PDX's RecordSponge project:
 
-This follows the SDK's [issue-first contribution process](https://github.com/vercel/ai/blob/main/CONTRIBUTING.md): maintainers and automated workflows prepare fixes from detailed reports and credit contributors on the resulting commits. My work covers streaming, cancellation, tool execution, structured output, provider adapters, client state, and HarnessAgent streaming.
-
-Selected merged fixes with co-author credit:
-
-- [Cancellation during tool-call repair](https://github.com/vercel/ai/commit/63175049119a46295e0ebffbcf638ef67c31f551): prevent repaired tools from executing after cancellation.
-- [Model-switching metadata](https://github.com/vercel/ai/commit/669672843ced76ce4d49e0aa98f9c56b56463792): report the model selected by `prepareStep` in streamed results and callbacks.
-- [Overlapping React requests](https://github.com/vercel/ai/commit/a527dcd92d99cf53babb9edf38657a6fd459c294): prevent older `useObject` responses from overwriting newer results.
-- [HarnessAgent final-step reasoning](https://github.com/vercel/ai/commit/a7a66f553908ba54b40e24ff7d4b2edb7c06421c): expose final-step reasoning through stream result accessors.
-
-[All my AI SDK reports](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01) · [Reports with fixes merged to main](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01%20label%3Amerged-main)
-
-I also authored eight merged pull requests across six other libraries and Code for PDX's RecordSponge project, verified October 18, 2026:
-
+- **[TanStack Query #11537](https://github.com/TanStack/query/pull/11537):** merged fix so cancelled retries no longer pause the query pipeline.
+- **[tRPC #7606](https://github.com/trpc/trpc/pull/7606):** merged fix releasing abort listeners on completed HTTP requests.
 - **[pg-boss #907](https://github.com/timgit/pg-boss/pull/907):** merged a fix so shutdown waits for workers that are already stopping.
 - **[Oxc #26796](https://github.com/oxc-project/oxc/pull/26796):** merged a React Compiler fix for recursive function expressions, verified with ten React 19.2.3 runtime scenarios.
 - **[RecordSponge #1701](https://github.com/codeforpdx/recordexpungPDX/pull/1701):** merged a Code for PDX change adding partners to the landing page and removing court fees.
@@ -29,6 +18,8 @@ I also authored eight merged pull requests across six other libraries and Code f
 - **[enriched-markdown #833](https://github.com/software-mansion/enriched-markdown/pull/833):** merged iOS regression coverage for multi-paragraph list markers.
 
 [All authored pull requests](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr&type=pullrequests) · [Open proposals](https://github.com/search?q=author%3Abrennanbutler01+is%3Apr+is%3Aopen&type=pullrequests)
+
+Earlier in 2026 I did deep bug-hunting on the [Vercel AI SDK](https://github.com/vercel/ai): 272 detailed reports through its issue-first process, with co-author credit on 56 commits merged to main — including fixes for cancellation during tool-call repair, overlapping React `useObject` requests, and model-switching metadata via `prepareStep`. [All my AI SDK reports](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01) · [Reports with fixes merged to main](https://github.com/vercel/ai/issues?q=is%3Aissue%20author%3Abrennanbutler01%20label%3Amerged-main)
 
 ## Selected engineering work
 
